@@ -1,0 +1,136 @@
+#textarea {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 600px;
+    height: 460px;
+    transition: all 0.2s;
+    resize: none;
+    margin-left: 20px;
+    margin-top: 27px;
+  }
+  
+  #textarea:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+  }
+  
+  #textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+  }
+
+  #textarea:active {
+   box-shadow: 5px 8px 15px rgba(26, 25, 25, 0.822);
+    transform: scale(1.05);
+  }
+
+  h1 {
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 5px;
+    margin-left: 150px;
+  }
+
+ .container {
+    width: 1250px;
+ }
+
+ .left {
+    width: 460px;
+    float: left;
+ }
+
+ .right {
+    width: 560px;
+    height: 560px;
+    background-color:#dddddd;
+    float: right;
+    margin-left: 10px;
+    text-indent: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1.5px solid transparent;
+    margin-top: 25px;}
+
+.right:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+    border: 1.5px solid color: black;
+  }
+  
+.right:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+  }
+
+audio:hover, audio:focus, audio:active {
+    box-shadow: 5px 8px 15px rgba(26, 25, 25, 0.822);
+    transform: scale(1.05);
+    border: 3px solid rgb(0, 211, 0);
+    border-radius: 50px;
+ }
+ 
+audio {
+    transition: all 0.5s linear;
+   box-shadow: 2px 2px 4px 0px #00000091;
+   border-radius: 50px;
+ }
+
+ .audio1 {
+    margin-left: 130px;
+    margin-top: 40px;
+ }
+ .audio2 {
+    margin-left: 130px;
+    margin-top: 20px;
+ }
+
+ .spacer1 {
+    width: 200px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-left: 180px;
+    margin-top: 30px;
+    z-index: -1;
+ }
+
+ h4 {
+    margin-bottom: 2px;
+ }
+
+ #submit {
+    width: 290px;
+    height: 70px;
+    background-color:greenyellow;
+    position: absolute;
+    font-size: 50px;
+    border-radius: 50px;
+    font-weight: 300;
+    margin-top: 6px;
+    margin-left: 180px;
+ }
+
+ #submit:active, #submit:hover, #submit:focus {
+   box-shadow: 5px 8px 15px rgba(26, 25, 25, 0.822);
+    transform: scale(1.05);
+    border: 3px solid rgb(0, 211, 0);
+    border-radius: 50px;
+    cursor: pointer;
+ }
+
+ body{
+   margin: 0;
+}
+
+
